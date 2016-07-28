@@ -100,7 +100,7 @@
                 }
             }
 
-            $(window).on('scroll', function(){
+            $(window).on('resize scroll', function(){
                 var docHeight = $(document).height();
                 var offsettop = $this.offset().top;
                 var height = $this.outerHeight();
